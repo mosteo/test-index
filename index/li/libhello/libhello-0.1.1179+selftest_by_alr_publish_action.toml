@@ -1,0 +1,15 @@
+name = "libhello"
+description = "Basic library demonstration project"
+version = "0.1.1179+selftest_by_alr_publish_action"
+tags = ["hello", "demo", "library"]
+licenses = "MIT"
+website = "https://github.com/alire-project/libhello"
+
+authors = ["Alejandro R. Mosteo"]
+maintainers = ["Alejandro R. Mosteo <alejandro@mosteo.com>"]
+maintainers-logins = ["mosteo"]
+
+[origin]
+commit = "ebc05a1db6f01170b6495e2f3a209523cab8449a"
+url = "git+file:/home/runner/work/alr-publish/alr-publish/libhello.upstream"
+
