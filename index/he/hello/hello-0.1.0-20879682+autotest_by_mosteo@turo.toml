@@ -1,0 +1,20 @@
+name = "hello"
+description = "'Hello, world!' demonstration project"
+version = "0.1.0-20879682+autotest_by_mosteo@turo"
+tags = ["hello", "demo"]
+licenses = "MIT"
+website = "https://github.com/alire-project/hello"
+
+authors = ["Alejandro R. Mosteo"]
+maintainers = ["Alejandro R. Mosteo <alejandro@mosteo.com>"]
+maintainers-logins = ["mosteo"]
+
+executables = ["hello"]
+
+[[depends-on]]
+libhello = "^1.0"
+
+[origin]
+commit = "50d7e8e7683c0a75d37cac089544703a01bd1396"
+url = "git+file:/tmp/tmpth3s67nn/publish__submit-request-cancel/hello_upstream"
+
